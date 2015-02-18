@@ -1,0 +1,110 @@
+---
+---
+
+@import 'colours';
+@import 'snippets';
+
+a {
+    color: $link-colour;
+    text-decoration: none;
+
+    &:visited, &:active {
+        color: $link-colour;
+    }
+    &:hover {
+        text-decoration: underline;
+        color: darken($link-colour, 20%);
+    }
+}
+
+body {
+    background: $primary-colour;
+    font: 16px/1.2em $serif-font;
+    text-align: center;
+    padding-top: 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $sans-font;
+    font-weight: 900;
+}
+
+header {
+    width: $page-width;
+    padding: $page-padding;
+    margin: 0 auto;
+    text-align: left;
+
+    h1 {
+        a {
+            color: $text-colour;
+
+            &:visited, &:active {
+                color: $text-colour;
+            }
+            &:hover {
+                text-decoration: none;
+                color: lighten($text-colour, 20%);
+            }
+        }
+    }
+
+    nav {
+        float: right;
+
+        ul {
+            list-style-type: none;
+            margin: 1.2em 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin: 0 0.3em;
+
+                a {
+                    color: darken($primary-colour, 40%);
+
+                    &:visited, &:active {
+                        color: darken($primary-colour, 40%);
+                    }
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div#main {
+    width: $page-width;
+    background: lighten($primary-colour, 50%);
+    margin: 0 auto;
+    text-align: left;
+    padding: $page-padding;
+
+    h1,h2,h3,h4,h5,h6 {
+        color: lighten($text-colour, 40%);
+
+        sup {
+            font-weight: 400;
+            font-size: 0.7em;
+        }
+    }
+}
+
+footer {
+    color: darken($primary-colour, 30%);
+    font-family: $sans-font;
+    padding: 2em 0;
+}
+
+code, pre {
+    font-family: $code-font;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid lighten($text-colour, 60%);
+    margin: 0 $page-padding;
+}
