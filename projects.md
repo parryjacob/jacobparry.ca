@@ -29,3 +29,13 @@ annotations over the more traditional .yml configuration file approach.
 
 `JSONDB` is a dependency for `ModuleBukkit` for interacting with a database through a JSON serialization layer. It
 quickly grew beyond this scope and became a more generalized database abstraction layer.
+
+### Minecraft Plugins <sup>[Source](https://github.com/parryjacob/mc)</sup>
+
+Over the course of more than one year, I worked together with my close friend [Evan McIntire](http://evanmcintire.com/)
+to create a variety of plugins for multiple Minecraft servers at multiple gaming communities we were a part of. Their
+appearance and functionality has changed wildly over time, their current version barely resembling the originals.
+
+This was the first large project I ever worked on in a collaborative environment, and it remains one of the largest.
+Memories of this project exist in many forms, both positive and negative. Sadly, after many changes within the Minecraft
+community this project was unable to continue in its current form. It may return again one day, but only time will tell.
