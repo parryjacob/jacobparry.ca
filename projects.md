@@ -22,6 +22,10 @@ curses interface and the ability to view stdout, stderr, and the ability to send
 inspired by [Foreman](https://github.com/ddollar/foreman) and [Honcho](https://github.com/nickstenning/honcho), a Python
 port of Foreman.
 
+### Settlers of Catan <sup>[Source](https://github.com/parryjacob/settlers-of-catan)</sup>
+
+This is an unfinished clone of the Settlers of Catan game, written using Fabric and node.js.
+
 ### ModuleBukkit <sup>[Source](https://github.com/parryjacob/ModuleBukkit)</sup>
 
 `ModuleBukkit` is a plugin written for the (essentially) defunct [Bukkit](http://bukkit.org) project (a Minecraft server
