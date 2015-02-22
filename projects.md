@@ -9,6 +9,12 @@ I'll be populating this page with any projects I work on, including a brief desc
 
 * * *
 
+### sitemap <sup>[Source](https://github.com/parryjacob/sitemap) | [Visit](http://p.jacobparry.ca/sitemap/)</sup>
+
+`sitemap` is a XML sitemap generator written in Python, using Flask. It uses [Scrapy](http://scrapy.org/) to crawl a
+site, constrained by the specified domains. Uses [Celery](http://www.celeryproject.org/) as a task queue to send the
+processing of sites to the background.
+
 ### keepup <sup>[Source](https://github.com/parryjacob/keepup) | [PyPI](https://pypi.python.org/pypi/keepup)</sup>
 
 `keepup` is a simple utility for keeping a predefined set of tasks, in the format of an `Upfile`, running. Providing a
