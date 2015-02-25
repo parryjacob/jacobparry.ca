@@ -9,6 +9,11 @@ I'll be populating this page with any projects I work on, including a brief desc
 
 * * *
 
+## cfdevmode.py <sup>[Source](https://github.com/parryjacob/cfdevmode)</sup>
+
+`cfdevmode` is an easy way to keep your CloudFlare zone(s) on development mode without having to switch it back on
+every three hours.
+
 ### sitemap <sup>[Source](https://github.com/parryjacob/sitemap) | [Visit](http://p.jacobparry.ca/sitemap/)</sup>
 
 `sitemap` is a XML sitemap generator written in Python, using Flask. It uses [Scrapy](http://scrapy.org/) to crawl a
