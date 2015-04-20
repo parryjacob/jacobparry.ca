@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<img width="200" src="{{ site.url }}/assets/face.jpg" alt="Jacob Parry" class="float-right">
+<img width="200" src="{{ 'face.jpg' | asset_path }}" alt="Jacob Parry" class="float-right">
 
 # I'm Jacob
 
@@ -24,7 +24,7 @@ I have experience working with
 
 ## Work Experience
 
-<img src="{{ site.url }}/assets/digital_echidna.png" alt="Digital Echidna" class="float-right">
+<img src="{{ 'digital_echidna.png' | asset_path }}" alt="Digital Echidna" class="float-right">
 
 I'm currently employed at [Digital Echidna](http://echidna.ca) as a Web Developer for my January 2015 &mdash; April 2015
 co-op work term. I spend my days creating awesome websites with awesome people using [Drupal](http://drupal.org), one of
