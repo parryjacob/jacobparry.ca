@@ -2,3 +2,4 @@ timezone: America/Toronto
 encoding: utf-8
 highlighter: pygments
 baseurl: https://www.jacobparry.ca
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
