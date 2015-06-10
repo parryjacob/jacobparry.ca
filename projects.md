@@ -14,7 +14,7 @@ I'll be populating this page with any projects I work on, including a brief desc
 `cfdevmode` is an easy way to keep your CloudFlare zone(s) on development mode without having to switch it back on
 every three hours.
 
-### sitemap <sup>[Source](https://github.com/parryjacob/sitemap) | [Visit](https://sitemap.jacobparry.ca/)</sup>
+### sitemap <sup>[Source](https://github.com/parryjacob/sitemap)</sup>
 
 `sitemap` is a XML sitemap generator written in Python, using Flask. It uses [Scrapy](http://scrapy.org/) to crawl a
 site, constrained by the specified domains. Uses [Celery](http://www.celeryproject.org/) as a task queue to send the
