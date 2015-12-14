@@ -26,10 +26,11 @@ I have experience working with
 
 <img src="{{ 'digital_echidna.png' | asset_path }}" alt="Digital Echidna" class="float-right">
 
-I'm currently employed at [Digital Echidna](http://echidna.ca) as a Web Developer for my January 2015 &mdash; April 2015
-co-op work term, and I will be returning for my September 2015 &mdash; December 2015 work term. I spend my days creating
-awesome websites with awesome people using [Drupal](http://drupal.org), one of the world's leading Content Management
-Systems.
+I'm currently employed at [Digital Echidna](http://echidna.ca) as a Web Developer for my September 2015 &mdash; December
+2015 co-op work term, and I will be returning for my May 2016 &mdash; August 2016 work term for my third work term, all
+of which I've spent at Digital Echidna. I spend my days creating awesome websites with awesome people using
+[Drupal](http://drupal.org), one of the world's leading Content Management Systems. I also manage some internal tools
+for automated testing and scheduled tasks.
 
 <div class="clear"></div>
 
