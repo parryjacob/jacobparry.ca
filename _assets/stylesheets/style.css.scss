@@ -77,7 +77,6 @@ div#main {
     width: $page-width;
     background: lighten($primary-colour, 50%);
     margin: 0 auto;
-    text-align: left;
     padding: $page-padding;
 
     h1,h2,h3,h4,h5,h6 {
@@ -108,4 +107,10 @@ hr {
 
 .centre {
     text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
 }
