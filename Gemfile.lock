@@ -102,3 +102,6 @@ DEPENDENCIES
   rack-contrib
   rack-jekyll
   rack-rewrite
+
+BUNDLED WITH
+   1.11.2

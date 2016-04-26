@@ -1,48 +1,9 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Jacob Parry</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+---
+layout: base
+title: {{ page.title }}
+---
+<div id="main" class="left">
+    {{ content }}
 
-        <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
-        <base href="{{ site.baseurl }}/">
-
-	{% stylesheet style %}
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="https://f.jacobparry.ca/resume.pdf">Résumé</a></li>
-                    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-                    <li><a href="https://github.com/parryjacob">GitHub</a></li>
-                    <li><a href="https://twitter.com/parryjacob">Twitter</a></li>
-                </ul>
-            </nav>
-            <h1><a href="{{ site.baseurl }}/">Jacob Parry</a></h1>
-        </header>
-
-        <div id="main" class="left">
-            {{ content }}
-
-            <div class="clear"></div>
-        </div>
-
-        <footer>
-            <p>
-                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License</a>.
-            </p>
-        </footer>
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-33629134-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </body>
-</html>
+    <div class="clear"></div>
+</div>
