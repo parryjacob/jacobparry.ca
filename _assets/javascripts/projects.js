@@ -9,7 +9,10 @@ $(document).ready(function() {
     
     var maxHeight = 0;
     
-    function addRepo(name, url, description, language) {
+    function addRepo(name, url, description, language, fork) {
+        
+        if (fork === undefined || fork === false) fork = false;
+        else fork = true;
         
         var lang = safeLanguage(language);
         var langClass = "";
@@ -22,7 +25,11 @@ $(document).ready(function() {
         }
         
         var repo = $("<div class='repo-box " + langClass + "'><span " + langTitle + " class='repo-lang " + langClass + "'></span></div>");
-        repo.append($("<h3><a href=\"" + url + "\">" + name + "</a></h3>"));
+        var h3 = $("<h3><a href=\"" + url + "\">" + name + "</a></h3>");
+        
+        if (fork) h3.addClass('repo-fork');
+        
+        repo.append(h3);
         repo.append($("<p>" + description + "</p>"));
         $("div#projects-container").append(repo);
         
@@ -36,12 +43,12 @@ $(document).ready(function() {
         if (data.length > 0) {
             
             data.sort(function (a, b) {
-                return Date.parse(b.updated_at) - Date.parse(a.updated_at);
+                return Date.parse(b.pushed_at) - Date.parse(a.pushed_at);
             });
             
             for (var i=0; i<data.length; i++) {
                 var repo = data[i];
-                addRepo(repo.full_name, repo.html_url, repo.description, repo.language);
+                addRepo(repo.full_name, repo.html_url, repo.description, repo.language, repo.fork);
             }
             
             $("div.repo-box").each(function() {

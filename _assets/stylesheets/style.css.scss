@@ -132,6 +132,13 @@ div#projects-container {
         h3 {
             text-overflow: ellipsis;
             overflow: hidden;
+            
+            &.repo-fork {
+                background-image: url(asset_path('repo-fork.png'));
+                background-repeat: no-repeat;
+                background-position: left center;
+                padding-left: 16px;
+            }
         }
         
         span.repo-lang {
