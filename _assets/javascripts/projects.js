@@ -34,6 +34,11 @@ $(document).ready(function() {
         $("div#projects-container").html("");
         
         if (data.length > 0) {
+            
+            data.sort(function (a, b) {
+                return Date.parse(b.updated_at) - Date.parse(a.updated_at);
+            });
+            
             for (var i=0; i<data.length; i++) {
                 var repo = data[i];
                 addRepo(repo.full_name, repo.html_url, repo.description, repo.language);
