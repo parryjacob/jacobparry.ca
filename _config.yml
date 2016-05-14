@@ -4,6 +4,7 @@ highlighter: pygments
 baseurl: https://www.jacobparry.ca
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Rakefile']
 markdown: kramdown
+permalink: /:year/:title.html
 assets:
   compress:
     css: sass

@@ -34,6 +34,15 @@ people using [Drupal](http://drupal.org), one of the world's leading Content Man
 
 <div class="clear"></div>
 
+## Writing
+
+<dl class="writing">
+{% for post in site.posts %}
+    <dt>{{ post.date | date: "%b %-d, %Y" }}</dt>
+    <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+{% endfor %}
+</dl>
+
 ## Contact
 
 The best way to contact me would be to send an email to [me@jacobparry.ca](mailto:me@jacobparry.ca) or to contact me via
