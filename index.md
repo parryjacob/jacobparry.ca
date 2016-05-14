@@ -47,3 +47,7 @@ people using [Drupal](http://drupal.org), one of the world's leading Content Man
 
 The best way to contact me would be to send an email to [me@jacobparry.ca](mailto:me@jacobparry.ca) or to contact me via
 GitHub.
+
+<div class="centre">
+    <em>All opinions expressed are my own and do not express the views or opinions of my employer, past or present.</em>
+</div>
