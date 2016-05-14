@@ -87,6 +87,18 @@ div#main {
             font-size: 0.7em;
         }
     }
+    
+    &.post {
+        h1 {
+            margin-bottom: 0.25em;
+        }
+        time {
+            font-style: italic;
+        }
+        p {
+            text-indent: 2em;
+        }
+    }
 }
 div#main.transparent {
     background: transparent;
