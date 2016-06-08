@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{% if page.title %}{{ page.title | strip_html }} &mdash; {% endif %}Jacob Parry</title>
+        <title>Projects &mdash; Jacob Parry</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-        <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
-        <base href="{{ site.baseurl }}">
+        <meta name="description" content="">
+        <base href="">
 
-	    {% stylesheet style %}
+	    <link type="text/css" rel="stylesheet" href="/assets/style.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     </head>
     <body>
@@ -16,16 +16,22 @@
             <nav>
                 <ul>
                     <li><a href="https://f.jacobparry.ca/resume.pdf">Résumé</a></li>
-                    <li><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
-                    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+                    <li><a href="/archive.html">Archive</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
                     <li><a href="https://github.com/parryjacob">GitHub</a></li>
                     <li><a href="https://twitter.com/parryjacob">Twitter</a></li>
                 </ul>
             </nav>
-            <h1><a href="{{ site.baseurl }}/">Jacob Parry</a></h1>
+            <h1><a href="/">Jacob Parry</a></h1>
         </header>
 
-        {{ content }}
+        <div id="main" class="transparent">
+<div id="projects-container">Loading projects...</div>
+</div>
+
+<script type="text/javascript" src="/assets/projects.js"></script>
+
+
         <div class="clear"></div>
         
 
