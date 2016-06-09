@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    var url = "https://t.jacobparry.ca/githubrepos.php?u=parryjacob";
+    var url = "https://s3.amazonaws.com/jacobparry/github-repos.json";
     
     function safeLanguage(lang) {
         if (lang == null) return null;
