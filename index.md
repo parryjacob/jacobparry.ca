@@ -5,10 +5,7 @@ layout: default
 
 # I'm Jacob
 
-I'm a Canadian developer with a special interest in **web-based applications** and **server administration**. Currently
-enrolled in the Computer Programmer Analyst program at [Fanshawe College](http://fanshawec.ca/) in London, ON, Canada,
-I will be graduating in December 2016. This is a co-operative education program, which means that I get valuable work
-experience while still enrolled in school.
+I'm a Canadian system administrator and developer with a special interest in **web-based applications** and **Linux server administration**. Currently, I specialize in the administration of web servers running small, medium, and large scale [Drupal](http://drupal.org) websites.
 
 I have experience working with
 
@@ -18,21 +15,27 @@ I have experience working with
 * C++
 * C#/.NET
 * JavaScript
-* HTML5/CSS3
-* SQL
+* HTML5/CSS3/JavaScript
+* SQL (MySQL/MariaDB, PostgreSQL, MSSQL/Transact-SQL, and Oracle)
 * Go
-* Docker and LXC containers
-* Markdown, reStructuredText, YAML, and more
+* Docker, LXC, and Hyper-V containers
+* Markdown, reStructuredText, YAML
+* Active Directory, LDAP, SAML
+* Ubiquiti, Cisco, and other network equipment
 
 ## Work Experience
 
 <img src="{{ 'digital_echidna.png' | asset_path }}" alt="Digital Echidna" class="float-right">
 
-I'm currently employed at [Digital Echidna](http://echidna.ca) as a Web Developer for my May 2016 &mdash; August 2016
-co-op work term, which will be my third and final co-op work term. I spend my days creating awesome websites with awesome
-people using [Drupal](http://drupal.org), one of the world's leading Content Management Systems.
+I'm currently employed at [Digital Echidna](http://echidna.ca) as a System Administrator. Previously, I was also employed during my co-op program as a web developer, mainly specializing in backend development for Drupal. I spend my days supporting an awesome team creating awesome websites  using [Drupal](http://drupal.org), one of the world's leading Content Management Systems.
 
 <div class="clear"></div>
+
+## Education and Certifications
+
+I graduated from [Fanshawe College's](http://fanshawec.ca) Computer Programmer Analyst program in December 2016 after completing three co-op work sessions with Digital Echidna.
+
+In April 2017, I received my [Acquia Certified Developer - Drupal 8](https://www.acquia.com/customer-success/learning-services/acquia-certified-developer-d8-exam-blueprint) certification at DrupalCon 2017. This demonstrates a well rounded knowledge of building performant, secure Drupal websites.
 
 ## Writing
 
