@@ -5,7 +5,7 @@ layout: default
 
 # I'm Jacob
 
-I'm a Canadian system administrator and developer with a special interest in **web-based applications** and **Linux server administration**. Currently, I specialize in the administration of web servers running small, medium, and large scale [Drupal](http://drupal.org) websites.
+I'm a Canadian system administrator and developer with a special interest in **web-based applications** and **Linux server administration**. Currently, I specialize in the administration and maintenance of medium-scale internal systems supporting a team of 50+ developers, artists, marketing specialists, and more.
 
 I have experience working with
 
@@ -25,9 +25,15 @@ I have experience working with
 
 ## Work Experience
 
+<img src="{{ 'bbb.png' | asset_path }}" alt="Big Blue Bubble" class="float-right">
+
+I'm currently employed at [Big Blue Bubble](https://www.bigbluebubble.com) as a Systems Administrator. My primary responsibilities are ensuring that all internal systems continue to function to support the ongoing development of our games for several platforms. As part of this, I maintain several internal tools as well as the majority of our web presences. This involves administering local systems as well as cloud-based resources, and working with a variety of vendors both local and abroad.
+
+<div class="clear"></div>
+
 <img src="{{ 'digital_echidna.png' | asset_path }}" alt="Digital Echidna" class="float-right">
 
-I'm currently employed at [Digital Echidna](http://echidna.ca) as a System Administrator. Previously, I was also employed during my co-op program as a web developer, mainly specializing in backend development for Drupal. I spend my days supporting an awesome team creating awesome websites  using [Drupal](http://drupal.org), one of the world's leading Content Management Systems.
+Previously I was employed at [Digital Echidna](http://echidna.ca) as a System Administrator. I was also employed during my co-op program as a web developer, mainly specializing in backend development for Drupal. I spent my days supporting an awesome team creating awesome websites using [Drupal](http://drupal.org), one of the world's leading Content Management Systems.
 
 <div class="clear"></div>
 
@@ -52,5 +58,5 @@ The best way to contact me would be to send an email to [me@jacobparry.ca](mailt
 GitHub.
 
 <div class="centre">
-    <em>All opinions expressed are my own and do not express the views or opinions of my employer, past or present.</em>
+    <em>All opinions expressed are my own and do not express the views or opinions of my employers, past or present.</em>
 </div>
