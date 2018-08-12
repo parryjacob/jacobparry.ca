@@ -30,7 +30,10 @@ $(document).ready(function() {
         if (fork) h3.addClass('repo-fork');
         
         repo.append(h3);
-        repo.append($("<p>" + description + "</p>"));
+
+        if (description === null || description.length == 0) repo.append($("<p><em>No description</em></p>"));
+        else repo.append($("<p>" + description + "</p>"));
+
         $("div#projects-container").append(repo);
         
         maxHeight = Math.max(maxHeight, repo.height());
