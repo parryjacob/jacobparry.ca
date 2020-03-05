@@ -1,6 +1,6 @@
 timezone: America/Toronto
 encoding: utf-8
-highlighter: pygments
+highlighter: rouge
 baseurl: https://threadproc.io
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Rakefile']
 markdown: kramdown
