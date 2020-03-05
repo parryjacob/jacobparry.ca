@@ -5,6 +5,6 @@ baseurl: https://threadproc.io
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Rakefile']
 markdown: kramdown
 permalink: /:year/:title.html
-assets:
-  compress:
-    css: sass
+sass:
+  sass_dir: _sass
+  style: compressed
