@@ -1,7 +1,7 @@
 timezone: America/Toronto
 encoding: utf-8
 highlighter: pygments
-baseurl: https://www.jacobparry.ca
+baseurl: https://threadproc.io
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Rakefile']
 markdown: kramdown
 permalink: /:year/:title.html

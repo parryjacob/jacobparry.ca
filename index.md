@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<img width="200" src="{{ 'face.jpg' | asset_path }}" alt="Jacob Parry" class="float-right">
+<img width="200" src="/assets/images/face.jpg" alt="Jacob Parry" class="float-right">
 
 # I'm Jacob
 
@@ -25,13 +25,13 @@ I have experience working with
 
 ## Work Experience
 
-<img src="{{ 'bbb.png' | asset_path }}" alt="Big Blue Bubble" class="float-right">
+<img src="/assets/images/bbb.png" alt="Big Blue Bubble" class="float-right">
 
 I'm currently employed at [Big Blue Bubble](https://www.bigbluebubble.com) as a Systems Administrator. My primary responsibilities are ensuring that all internal systems continue to function to support the ongoing development of our games for several platforms. As part of this, I maintain several internal tools as well as the majority of our web presences. This involves administering local systems as well as cloud-based resources, and working with a variety of vendors both local and abroad.
 
 <div class="clear"></div>
 
-<img src="{{ 'digital_echidna.png' | asset_path }}" alt="Digital Echidna" class="float-right">
+<img src="/assets/images/digital_echidna.png" alt="Digital Echidna" class="float-right">
 
 Previously I was employed at [Digital Echidna](http://echidna.ca) as a System Administrator. I was also employed during my co-op program as a web developer, mainly specializing in backend development for Drupal. I spent my days supporting an awesome team creating awesome websites using [Drupal](http://drupal.org), one of the world's leading Content Management Systems.
 
@@ -43,18 +43,9 @@ I graduated from [Fanshawe College's](http://fanshawec.ca) Computer Programmer A
 
 In April 2017, I received my [Acquia Certified Developer - Drupal 8](https://www.acquia.com/customer-success/learning-services/acquia-certified-developer-d8-exam-blueprint) certification at DrupalCon 2017. This demonstrates a well rounded knowledge of building performant, secure Drupal websites.
 
-## Writing
-
-<dl class="writing">
-{% for post in site.posts %}
-    <dt>{{ post.date | date: "%b %-d, %Y" }}</dt>
-    <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
-{% endfor %}
-</dl>
-
 ## Contact
 
-The best way to contact me would be to send an email to [me@jacobparry.ca](mailto:me@jacobparry.ca) or to contact me via
+The best way to contact me would be to send an email to [tp@threadproc.io](mailto:tp@threadproc.io) or to contact me via
 GitHub.
 
 <div class="centre">

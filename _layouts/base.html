@@ -8,7 +8,8 @@
         <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
         <base href="{{ site.baseurl }}">
 
-	    {% stylesheet style %}
+        {% stylesheet style %}
+        <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     </head>
     <body>
@@ -16,8 +17,6 @@
             <nav>
                 <ul>
                     <li><a href="https://f.jacobparry.ca/resume.pdf">Résumé</a></li>
-                    <li><a href="{{ site.baseurl }}/archive.html">Archive</a></li>
-                    <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
                     <li><a href="https://github.com/threadproc">GitHub</a></li>
                     <li><a href="https://twitter.com/threadproc">Twitter</a></li>
                 </ul>
