@@ -47,7 +47,7 @@ GEM
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
     multi_json (1.11.3)
-    puma (3.12.4)
+    puma (3.12.6)
     pygmentize (0.0.3)
     rack (1.6.13)
     rack-contrib (1.4.0)
